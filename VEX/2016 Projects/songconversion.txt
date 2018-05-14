@@ -1,0 +1,19 @@
+Song conversion format
+PlayTone(frequency, duration1); wait1Msec(duration2); per note
+
+duration 2 = duration 1 * about 10.5
+frequency is note based
+
+assuming fifth octave;
+523 = C
+587 = D
+659 = E
+698 = F
+783 = G
+880 = A
+987 = B
+
+Add or decrease 350-450 to change octave respectively
+
+Tempo
+Default octave, default note length, break doesn't seem to matter
